@@ -2,7 +2,7 @@ import os
 import sys
 
 COMMAND = 'docker-compose up -d'
-COMMAND_STOP = 'docker-compose down'
+COMMAND_STOP = 'docker-compose stop'
 COMMAND_ADMIN = 'docker exec -it my-jupyter-lab  bash'
 
 if __name__ == '__main__':
